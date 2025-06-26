@@ -11,7 +11,7 @@ const startServer = async () => {
     app.listen(PORT, () => {
       logger.info(`Server đang chạy trên cổng ${PORT}`);
       logger.info(`Truy cập: http://localhost:${PORT}`);
-      logger.info(`ULR CLIENT: ${process.env.FRONTEND_URL}`);
+      console.log(`ULR CLIENT: ${process.env.FRONTEND_URL}`);
     });
   } catch (error) {
     logger.error(`Lỗi khi khởi động server: ${error.message}`);
