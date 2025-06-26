@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Môi trường
+.env
+.env.local
+.env.*.local
+
+# Thư mục build (nếu có)
+dist/
+build/
+
+# IDE & hệ thống
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+
+# PM2 logs
+pids/
+*.pid
+*.seed
+
+# Database local files
+*.sqlite
+*.sqlite3
+*.db
+
+# Others (tùy dự án bạn)
+uploads/
+public/uploads/
